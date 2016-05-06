@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+    legend { 
+    display: block;
+    padding-left: 2px;
+    padding-right: auto;
+    border-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+  <!-- Navigation bar. Lets user to navigate between pages using just html and css. Used divs for styling
+  and locating.<a> tag to make sure it is clickable -->
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="MainPage.html">Home</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="Sales.html">Sales</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+
+
+
+ <div class="container">
+     <form action="MAILTO:samiakhan1@hotmail.co.uk" method="post" enctype="text/plain">
+        <fieldset>
+            <legend><h>Contact us</h></legend>
+            
+<h2>Send us an e-mail</h2>
+
+Name:<br>
+<input type="text" name="name" placeholder="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" placeholder="your email"><br>
+Comment:<br>
+<input type="text" name="comment" placeholder="your comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+        </fieldset>
+    </div>
+</body>
+</html>
